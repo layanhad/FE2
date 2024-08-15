@@ -1,0 +1,86 @@
+body {
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    background-color:  #74C0FC;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1rem;
+    margin-right: 3rem;
+}
+
+.navbar a:hover {
+    background-color:  #b1ddff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.greeting-card {
+    background-color: white;
+    border: 0.07rem solid #74C0FC;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    margin: 1.5rem;
+    padding: 1rem;
+    width: 35rem;
+    text-align: center;
+    
+}
+
+.birthday-cake{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+
+
+}
+.greeting-card h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.greeting-card p {
+    color: #666;
+}
+
+.framed-quote {
+    background-color: rgb(230, 251, 254);
+    border: 0.07rem solid #74C0FC;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 25rem;
+    text-align: center;
+}
+
+.framed-quote p {
+    font-style: italic;
+    font-size: 1rem;
+}
+
