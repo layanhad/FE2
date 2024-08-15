@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    flex-direction: column;
+    width: 25rem;
+    margin: 3rem;
+    background-color: #fff;
+    border: 0.07rem solid #74C0FC;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+#profile-pic {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.card header {
+    text-align: center;
+}
+
+.card header h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card header h2 {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.card .about p {
+    color: #666;
+}
+
+.card .contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card .contact li {
+    margin-bottom: 0.625rem;
+}
+
+.card .contact a {
+    color: #74C0FC; 
+}
+
