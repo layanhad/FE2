@@ -136,12 +136,12 @@ h1.span{
     text-align: center;
 }
 
-#favorite,#special{
+#favorite,#special,#testimonial{
     color: red;
     margin: 0;
 }
 
-#popular,#standout{
+#popular,#standout,#customers{
     font-weight: bold;
     font-size: 4.5rem;
     margin-top: 2rem;
@@ -229,3 +229,39 @@ h1.span{
     margin: 0;
     font-size: 1.125rem;
   }
+
+.description1{
+    color: #666;
+    font-size: 2rem;
+}
+
+.testimonials{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.testimonials-content{
+    margin-top: 5rem;
+
+}
+
+.feedback{
+    display: flex;
+    gap: 3rem;
+
+}
+
+.star1{
+    font-size: 1.5rem;
+    color:#FFD700;
+
+}
+
+#feed{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
