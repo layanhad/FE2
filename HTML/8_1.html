@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/8_1.css">
+    <title>Positions 8_1</title>
+</head>
+<body>
+    <div id="outer">
+    <div id="inner"></div>
+    </div>
+</body>
+<!-- 
+    The problem was because inner position is absolute but it does not have a parent with a position that is diffrent from static 
+    therefore it was relative to the body instead, to fix the issue we need to position the outer div to be with a position relative 
+    and as a result the inner div will be relative to the outer div
+-->
+</html>
