@@ -1,0 +1,104 @@
+body {
+    background-color: #26394E;
+    font-family: "Poppins", sans-serif;
+    color: #ddd;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8rem;
+}
+
+button{
+    color: white;
+    font-size: 1rem;
+
+}
+
+.flat-register {
+    background-color: #4297f5;
+    padding: 0.6rem 1rem;
+    border: none;
+}
+
+.flat-submit{
+    background-color: #f5b142;
+    border: none;
+    font-size: 0.8rem;
+
+}
+
+.round-register {
+    background-color: #4caf50;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.round-submit {
+    background-color: #f54272;
+    padding: 0.2rem 0.5rem;
+    border: none;
+    border-radius: 1.4rem;
+    font-size: 0.8rem;
+}
+
+.flat-ghost-register {
+    background-color: transparent;
+    padding: 0.6rem 1.2rem;
+    border: 0.1rem solid red;
+}
+
+.flat-ghost-register:hover{
+    background-color: red;
+}
+
+.flat-ghost-submit {
+    background-color: transparent;
+    padding: 0.2rem 0.6rem;
+    border: 0.1rem solid #f54272;
+    font-size: 0.8rem;
+}
+
+.flat-ghost-submit:hover {
+    background-color: #f54272;
+}
+
+.round-ghost-register {
+    background-color: transparent;
+    padding: 0.6rem 1.2rem;
+    border: 0.1rem solid #f5b142;
+    border-radius: 1.4rem;
+}
+
+.round-ghost-register:hover{
+    background-color: #f5b142;
+}
+
+.round-ghost-submit {
+    background-color: transparent;
+    padding: 0.2rem 0.6rem;
+    border: 0.1rem solid #4caf50;
+    font-size: 0.8rem;
+    border-radius: 1.4rem;
+}
+
+.round-ghost-submit:hover{
+    background-color: #4caf50;
+
+}
