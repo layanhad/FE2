@@ -1,0 +1,38 @@
+body{
+    align-items: center;
+    padding: 6rem;
+}
+
+.box{
+    background-color: white;
+    border: 0.125rem solid black; 
+
+}
+.one {
+    width: 19rem; 
+    height: 19rem; 
+    position: absolute;
+}
+.two {
+    width: 16rem; 
+    height: 14.5rem; 
+    position: absolute;
+    margin: 7.5rem; 
+    top: 6rem; 
+    left:10rem
+
+}
+.three {
+    width: 44rem; 
+    height: 7rem; 
+    position: absolute;
+    top: 28rem; 
+
+}
+.four {
+    width: 6.5rem; 
+    height: 44rem; 
+    position: absolute;
+    left: 40rem; 
+
+}
